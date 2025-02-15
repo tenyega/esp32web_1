@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char *ssid = "Yega";
-const char *password = "Freetibet";
+const char *ssid = "****";
+const char *password = "************";
 WebServer server(80);//here the port by default is 80 which is 8080 on which the http is listening. 
 
 void handleRoot()
